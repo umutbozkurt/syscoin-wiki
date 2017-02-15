@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "Syscoin Wiki"
+theme = "hugo-theme-learn"
+baseurl = "http://example.org/"
