@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Syscoin &middot; Wiki</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" rel="stylesheet">
@@ -19,7 +19,7 @@
   <body>
 
     <nav class="navbar navbar-toggleable-sm navbar-inverse doc-navbar bg-inverse" id="doc_navbar">
-      <span class="navbar-brand">syscoin.wiki</span>
+      <a class="navbar-brand" href=""><img src="img/logo.png" data-rjs="3" alt="syscoin.wiki"></a>
       <div class="navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -55,7 +55,7 @@
         <div class="col-sm-10 col-md-8 col-xl-6 offset-sm-1 offset-md-2 offset-xl-3">
           <div class="mb-xl">
             <h2 class="text-primary">Disclaimer</h2>
-            <p class="typography-subheading">This is an unofficial wiki site. Any topic discussed here is only for informative purposes. Head to <a href="http://syscoin.org" target="_blank">syscoin.org<sup><i class="material-icons material-icons-inline">open_in_new</i></sup></a> for official reference.</p>
+            <p class="typography-subheading">This is an unofficial wiki site. Any topic discussed here is only for informative purposes. Head to <a href="http://syscoin.org" target="_blank">syscoin.org</a> for official reference.</p>
           </div>
 
           <div class="blockquote mb-xl">
@@ -63,26 +63,28 @@
             <p><a class="content-item" href="#projects">Projects</a></p>
             <p><a class="content-item" href="#news">News</a></p>
             <p><a class="content-item" href="#roadmap">Roadmap</a></p>
-            <p><a class="content-item" href="#cryptocurrency">Cryptocurrency</a></p>
+            <p><a class="content-item" href="#blockchain-foundry">Blockchain Foundry</a></p>
             <p><a class="content-item" href="content">Wiki</a></p>
+            <p><a class="content-item" href="content">FAQ</a></p>
+            <p><a class="content-item" href="content">Community</a></p>
           </div>
 
-          <div class="mb-xl" id="projects">
+          <section class="mb-xl" id="projects">
             <h2 class="text-primary">Projects <a class="anchor" href="#projects"><sup><i class="material-icons">link</i></sup></a></h3>
             <div class="row">
               <div class="col-md-6 mt-lg">
-                <div class="card" style="width: 20rem;">
+                <div class="card">
                   <img class="card-img-top" src="img/syscoin-core.png" data-rjs="3" alt="Syscoin Core">
                   <div class="card-block">
                     <h4 class="card-title">Syscoin Core</h4>
                     <p class="card-text">Core technology. The foundation's backbone. Reference wallet.</p>
-                    <a href="https://github.com/syscoin/syscoin2/releases/latest" target="_blank" class="btn btn-primary btn-card">Wallet</a>
-                    <a href="http://syscoin.org/whitepaper.pdf" target="_blank" class="btn btn-primary btn-card">Whitepaper</a>
+                    <a href="https://github.com/syscoin/syscoin2/releases/latest" target="_blank" class="card-link">Wallet</a>
+                    <a href="http://syscoin.org/whitepaper.pdf" target="_blank" class="card-link">Whitepaper</a>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 mt-lg">
-                <div class="card" style="width: 20rem;">
+                <div class="card">
                   <img class="card-img-top" src="img/syscoin-elite.png" data-rjs="3" alt="Syscoin Elite">
                   <div class="card-block">
                     <h4 class="card-title">Syscoin Elite</h4>
@@ -109,77 +111,103 @@
                 <div class="card">
                   <img class="card-img-top" src="img/pricepeg.png" data-rjs="3" alt="Blockmarket">
                   <div class="card-block">
-                    <h4 class="card-title">Price-Peg Server</h4>
-                    <p class="card-text">Price peg.</p>
+                    <h4 class="card-title">Pricepeg Server</h4>
+                    <p class="card-text">Pricepeg</p>
                     <p class="text-muted">Coming Soon</p>
                   </div>
                 </div>
               </div>
 
             </div>
-          </div>
+          </section>
 
-          <div class="mb-xl" id="news">
+          <section class="mb-xl" id="news">
             <h2 class="text-primary">News <a class="anchor" href="#news"><sup><i class="material-icons">link</i></sup></a></h3>
             <div class="row">
-              <div class="col-md-6 mt-lg">
-                <h4 class="text-secondary typography-subheading">CSS &amp; HTML</h4>
-                <p>If a Bootstrap component has an exact match in Google Material Design, this project will style this Bootstrap component based on the specifications laid out in Google Material Design Guidelines. For example, Bootstrap's buttons = Google Material Design's buttons.</p>
-                <p>Some of the Bootstrap components seem to lack an exact match in Google Material Design, but this may be simply due to different naming conventions. For example, Bootstrap's navbars is very much the same as Google Material Design's toolbars.</p>
-                <p>If a Bootstrap component does not have an exact match in Google Material Design, the specifications of a closest matching component in Google Material Design Guidelines will be used to style this Bootstrap component. For example, Bootstrap's badges = Google Material Design's chips.</p>
-                <p>If a Bootstrap component lacks a related counterpart in Google Material Design completely, this project will style this component based on our own iteration of Google Material Design Guidelines. For example, Bootstrap's button groups, jumbotrons and paginations, etc.</p>
+              <div class="col-md-12 mt-lg">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="img/microsoft-partnership.jpg" data-rjs="3" alt="Microsoft Partnership">
+                  <div class="card-block">
+                    <h4 class="card-title">Microsoft Certification Update</h4>
+                    <p class="card-text">Syscoin team has completed all steps for certification.</p>
+                    <p>
+                      <a href='#microsoft-certification' class="card-link collapsed" data-toggle="collapse" data-target="#microsoft-certification">Read More</a>
+                      <a href="http://syscoin.org/microsoft-azure-baas/" target="_blank" class="card-link">Official Article</a>
+                    </p>
+                    <div class="collapse" id="microsoft-certification">
+                      <p>nim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                    </div>
+                      <p class="card-text" itemprop="datePublished" content="2017-02-13"><small class="text-muted">February 13</small></p>
+                  </div>
+                </div>
               </div>
               <div class="col-md-6 mt-lg">
-                <h4 class="text-secondary typography-subheading">JavaScript</h4>
-                <p>No modification has been made to Bootstrap's JavaScript. It is safe to use Bootstrap's JavaScript as it is.</p>
-                <p>However, in order to achieve some Material feel and look, Material includes a handful of additional JavaScript to help bring some of the components to life.</p>
+                <div class="card mb-3">
+                  <img class="card-img-top" src="img/syscoin-multisig.jpg" data-rjs="3" alt="Syscoin Multisig">
+                  <div class="card-block">
+                    <h4 class="card-title">Segwit, Lightning Network and ZKA</h4>
+                    <p class="card-text">Syscoin team has completed all steps for certification.</p>
+                    <p>
+                      <a href="/wiki/what-is-zka" target="_blank" class="card-link">What is ZKA?</a>
+                      <a href="http://syscoin.org/syscoin-core-segwit-lightning/" target="_blank" class="card-link">Official Article</a>
+                    </p>
+                    <p class="card-text" itemprop="datePublished" content="2017-02-08"><small class="text-muted">February 8</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-lg">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="img/consensus-2017.jpg" data-rjs="3" alt="Consensus 2017">
+                  <div class="card-block">
+                    <h4 class="card-title">New Partnerships and Consensus 2017</h4>
+                    <p class="card-text">asd asd asd.</p>
+                    <p>
+                      <a href="http://syscoin.org/partnerships-and-syscoin-at-consensus-2017/" target="_blank" class="card-link">Official Article</a>
+                    </p>
+                    <p class="card-text" itemprop="datePublished" content="2017-02-06"><small class="text-muted">February 6</small></p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div class="mb-xl" id="roadmap">
+          <section class="mb-xl" id="roadmap">
             <h2 class="text-primary">Roadmap <a class="anchor" href="#roadmap"><sup><i class="material-icons">link</i></sup></a></h3>
+            <h3 class="text-secondary mt-md roadmap-heading">2017</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 18%"></div>
+            </div>
             <div class="row">
-              <div class="col-md-4 mt-lg">
-                <h4 class="text-secondary typography-subheading">Near-term</h4>
-                <p>Bug fixes and updates alongside Bootstrap 4's continuous releases.</p>
+              <div class="col-md-3">
+                <h4 class="text-secondary typography-subheading mt-md roadmap-heading">Q1</h4>
+                <span class="roadmap-item">&bull; Microsoft Certification</span>
+                <span class="roadmap-item">&bull; Blockmarket v1</span>
+                <span class="roadmap-item">&bull; Syscoin Elite</span>
+                <span class="roadmap-item">&bull; Project Mongoose</span>
               </div>
-              <div class="col-md-4 mt-lg">
-                <h4 class="text-secondary typography-subheading">Mid-term</h4>
-                <p>Add missing support for some Google Material Design components (e.g. snackbars).</p>
+              <div class="col-md-3">
+                <h4 class="text-secondary typography-subheading mt-md roadmap-heading">Q2</h4>
+                <span class="roadmap-item">&bull; Proof of concept implementations for medical, legal and real estate applications</span>
+                <span class="roadmap-item">&bull; Conference and a hackathon</span>
               </div>
-              <div class="col-md-4 mt-lg">
-                <h4 class="text-secondary typography-subheading">Long-term</h4>
-                <p>Rewrite all JavaScript plugins in ES6 to take advantage of the newest JavaScript enhancements.</p>
+              <div class="col-md-3">
+                <h4 class="text-secondary typography-subheading mt-md roadmap-heading">Q3</h4>
+                <span class="roadmap-item">&bull; Syscoin e-commerce platforms integration</span>
+                <span class="roadmap-item">&bull; Blockmarket v2</span>
+                <span class="roadmap-item">&bull; Microsoft Certification for Blockmarket v2</span>
+              </div>
+              <div class="col-md-3">
+                <h4 class="text-secondary typography-subheading mt-md roadmap-heading">Q4</h4>
+                <span class="roadmap-item">&bull; iOS &amp; Android applications</span>
+                <span class="roadmap-item">&bull; Blockmarket Ad Network</span>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div class="mb-xl" id="cryptocurrency">
-            <h2 class="text-primary">Cryptocurrency <a class="anchor" href="#roadmap"><sup><i class="material-icons">link</i></sup></a></h3>
-            <div class="row chart">
-              <!-- TradingView Widget BEGIN -->
-              <script type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
-              <script type="text/javascript">
-                new TradingView.widget({
-                  "autosize": true,
-                  "symbol": "POLONIEX:SYSBTC",
-                  "height": 450,
-                  "interval": "60",
-                  "timezone": "Etc/UTC",
-                  "theme": "White",
-                  "style": "1",
-                  "locale": "en",
-                  "toolbar_bg": "#f1f3f6",
-                  "enable_publishing": false,
-                  "hide_top_toolbar": true,
-                  "save_image": false,
-                  "hideideas": true
-                });
-              </script>
-              <!-- TradingView Widget END -->
-            </div>
-          </div>
+          <section class="mb-xl" id="blockchain-foundry">
+            <h2 class="text-primary">Blockchain Foundry <a class="anchor" href="#blockchain-foundry"><sup><i class="material-icons">link</i></sup></a></h3>
+
+          </section>
 
         </div>
       </div>
@@ -193,6 +221,10 @@
 
   </main>
 
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/material.min.js"></script>
   <script type="text/javascript" src="js/retina.min.js"></script>
 
   </body>

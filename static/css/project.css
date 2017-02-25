@@ -11,12 +11,12 @@
   background-color: #00B0FF !important;
 }
 
-.text-primary {
-  color: #F06292 !important;
+.navbar-brand {
+  margin-top: 5px;
 }
 
-.chart {
-  height: 450px;
+.text-primary {
+  color: #F06292 !important;
 }
 
 .blockquote {
@@ -78,6 +78,22 @@ a:active, a:focus, a:hover {
 
 .text-primary:hover > .anchor {
   display: inline;
+}
+
+.card-block > .text-muted {
+  margin-bottom: 0;
+}
+
+.progress-bar {
+  background-color: #00B0FF;
+}
+
+.roadmap-heading {
+  color: #00B0FF !important;
+}
+
+.roadmap-item {
+  display: block;
 }
 
 @media (min-width: 1280px) {
